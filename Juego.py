@@ -62,9 +62,9 @@ import math
             print("\nEl pájaro no alcanzó el edificio.")
             print(f"Distancia máxima alcanzada: {max_x:.2f} m")
 
-        reiniciar = input("\n¿Quieres jugar otra vez? (sí/no): ").strip().lower()
+        reiniciar = input("\n¿Quieres jugar de nuevo? (sí/no): ").strip().lower()
         if reiniciar != "sí":
-            print("¡Gracias por jugar!")
+            print("Gracias por jugar")
             break
 juego_angry_birds()
 
